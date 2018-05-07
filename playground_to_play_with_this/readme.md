@@ -1,1 +1,0 @@
-I was playing around with "this" to show the different scope.  (function vs method)
