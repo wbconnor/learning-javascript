@@ -25,9 +25,7 @@ function dateManipulationFunction () {
 
         // console.log(this)
         
-    return fullDateAndTime
-
-    
+    return fullDateAndTime   
 }
 
 const dateAndTime = {
@@ -57,9 +55,7 @@ const dateAndTime = {
        
            let fullDateAndTime = `${fullDate} ${fullTime}`
 //            console.log(this)       
-           return fullDateAndTime
-       
-        
+           return fullDateAndTime      
        }
 }
 
@@ -93,10 +89,7 @@ const modifiedDateAndTime = {
            let fullDateAndTime = `${this.yearMonthDay()} ${this.hourMinuteSecond()}`
            console.log(this.datevalue)
            console.log(this)
-           return fullDateAndTime
-       
-
-          
+           return fullDateAndTime      
        }
 }
 console.log(`
