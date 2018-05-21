@@ -59,7 +59,7 @@ var originalInput = 'the length of the string'
 console.log('************************')
 let   returnedstring2 = rotate_string3(originalInput)
 console.log('************************')
-for(var i = 0; i <= originalInput.length - 1; i++) {
+for(var i = 0; i <= originalInput.length - 2; i++) {
     returnedstring2 = rotate_string3()
     stringInput = returnedstring2
     console.log(returnedstring2)
