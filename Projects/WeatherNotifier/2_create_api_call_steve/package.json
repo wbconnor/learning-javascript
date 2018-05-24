@@ -1,0 +1,11 @@
+{
+  "name": "apicall",
+  "version": "1.0.0",
+  "description": "apicall",
+  "main": "apiCall.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Covert <stephendp51@gmail.com>",
+  "license": "ISC"
+}
