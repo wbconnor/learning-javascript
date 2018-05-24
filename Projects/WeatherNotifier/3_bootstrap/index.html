@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>API CALL</title>
+  <link rel="stylesheet" href="bootswatch.css">
+</head>
+<body>
+
+  <div class="bs-component">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Locale</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Weather<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Zip</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h1>Get The Current Weather For Your Location</h1>
+
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-5">
+        Enter Zip Code:
+        <input type="text" name="zip" id="zip">
+        <button onclick="getWeather()">Get Weather</button>
+      </div>
+      <div class="col-md-2 col-md-offset-5">
+        <div id="weather"></div>
+        <img id="icon" src="">
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="weather.js"></script>
+</body>
+</html>
