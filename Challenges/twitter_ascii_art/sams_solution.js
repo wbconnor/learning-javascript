@@ -5,8 +5,7 @@ function ascii() {
 
   for (let x = 0; x < width; x++) {
       for (let y = 0; y < height; y++) {
-          if (
-            //x === y ||
+          if (x === y ||
               x === height - 1 - y ||
               x === 0 ||
               y === 0 ||
