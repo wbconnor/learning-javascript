@@ -10,17 +10,42 @@ function ascii_art(){
       output += "\n";
     }
     else {
+      if(i < 5) {
+        output += "#";
+          for(spaces = 0; spaces < i - 1; ++spaces) {
+            output += " ";
+          }
+          output += "#";
 
-        for(spaces = 0; spaces < i - 1; ++spaces) {
+          for(gap = (spaces * 2) - 6; gap < 0; ++gap) {
+            output += " ";
+          }
+          output += "#";
+
+          for(spaces = 0; spaces < i - 1; ++spaces) {
+            output += " ";
+          }
+          output += "#";
+          output += "\n";
+      }
+      else {
+        output += "#";
+        for(spaces = i - 8; spaces < 0; ++spaces) {
           output += " ";
         }
         output += "#";
-        for(gap = i - 6; gap < 0; ++gap) {
+
+        for(gap = (i - 5) * 2; gap > 0; --gap) {
           output += " ";
         }
         output += "#";
-output += "\n";
-output += "#";
+
+        for(spaces = i - 8; spaces < 0; ++spaces) {
+          output += " ";
+        }
+        output += "#";
+        output += "\n";
+      }
     }
   }
   console.log(output);
