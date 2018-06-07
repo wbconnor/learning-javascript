@@ -1,0 +1,14 @@
+{
+  "name": "tdd_brent",
+  "version": "1.0.0",
+  "description": "fizzbuzz with test driven development",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "wbconnor",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
