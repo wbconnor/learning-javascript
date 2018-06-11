@@ -1,0 +1,11 @@
+{
+  "name": "fizzbuzz_steve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fizzbuzz_steve.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Stephen Covert <stephendp51@gmail.com>",
+  "license": "ISC"
+}
