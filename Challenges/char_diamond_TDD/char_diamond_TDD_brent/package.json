@@ -1,0 +1,14 @@
+{
+  "name": "char_diamond_tdd_brent",
+  "version": "1.0.0",
+  "description": "character diamond kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
