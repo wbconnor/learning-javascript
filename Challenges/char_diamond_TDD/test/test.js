@@ -16,6 +16,11 @@ var diamond = require('../char_diamond');
 
 // Test that lowercase gets converted to uppercase
 
+  it('Test for that lower case is converted to upper case', function() {
+    assert.equal(diamond("a"), "A");
+  });
+
+
 // First letter should always be A
 
 // Counting number of spaces before A / first letter

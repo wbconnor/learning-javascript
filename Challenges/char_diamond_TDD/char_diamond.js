@@ -1,7 +1,8 @@
+
 module.exports = function diamond(letter) {
-  var pattern = /^[A-z]{1}$/;
+  pattern = /^[A-z]{1}$/;
   if(pattern.test(letter)) {
-    // change letter to uppercase
+    return letter = letter.toUpperCase()
   }
   else {
     return false;
