@@ -18,6 +18,7 @@ var diamond = require('../char_diamond');
     assert.equal(diamond("a"), "A");
   });
 
+// length of alphabet array is 26
 
 // First letter should always be A
 
