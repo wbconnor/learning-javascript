@@ -34,4 +34,4 @@ function diamond(letter) {
     }
   }
   
-  diamond("f");
+  diamond("z");
