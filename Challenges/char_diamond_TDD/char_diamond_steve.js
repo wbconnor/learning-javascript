@@ -1,11 +1,28 @@
-function diamond(letter) {
-    pattern = /^[A-z]{1}$/;
-    if(pattern.test(letter)) {
+module.exports = class Diamond {
+
+  constructor(letter) {
+    this.letter = letter
+  }
+
+  validInput() {
+    let pattern = /^[A-z]{1}$/;
+    if(pattern.test(this.letter)) {
+      return this.letter.toUpperCase();
+    }
+    else {
+      return false;
+    }
+  }
+
+  /*
+
+
       let alphabet = [ "A", "B", "C", "D", "E", "F", "G", "H", "I", "J",
       "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V",
        "W", "X", "Y", "Z" ];
-      letter = letter.toUpperCase();
+      
       let index = alphabet.indexOf(letter);
+
       let alphabetIndex = 0
       let firstLetterPosition = 0
       let secondLetterPosition = 0  
@@ -27,11 +44,11 @@ function diamond(letter) {
         alphabetIndex = i < index ? alphabetIndex + 1 : alphabetIndex - 1
 
       }
-      console.log(result)
+      return(result)
     }
     else {
       return false;
     }
+    */
   }
   
-  diamond("z");
