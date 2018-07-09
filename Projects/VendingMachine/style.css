@@ -1,0 +1,60 @@
+.main-page {
+    display: flex;
+    height: 500px;
+}
+
+.one-third {
+    flex: 1;
+    height: 100%;
+    background-color: gray
+}
+
+.two-thirds {
+    flex: 2;
+    height: 100%;
+    background-color: lightgray
+
+}
+
+#vending-machine {
+    width: 225px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: cyan;
+
+}
+
+.vending-machine-window {
+    position: absolute;
+    width: 130px;
+    height: 275px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+.vending-machine-control {
+    position: absolute;
+    width: 35px;
+    height: 180px;
+    margin-left: 172px;
+    margin-top: 120px;
+    border-radius: 5px;
+    background-color: silver;
+
+}
+
+.vending-machine-door {
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 320px;
+    border-radius: 5px;
+    background-color: silver;
+
+}

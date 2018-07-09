@@ -1,22 +1,24 @@
 module.exports = class Diamond {
 
-  constructor(letter) {
-    this.letter = letter
+  constructor() {
+ //   this.letter = letter
   }
 
-  validInput() {
+  validInput(letter) {
     let pattern = /^[A-z]{1}$/;
-    if(pattern.test(this.letter)) {
-      return this.letter.toUpperCase();
+    if(pattern.test(letter)) {
+      return letter.toUpperCase();
     }
     else {
       return false;
     }
   }
 
-  /*
 
 
+  createDiamond(letter) {
+    letter = this.validInput(letter)
+    if (letter) {
       let alphabet = [ "A", "B", "C", "D", "E", "F", "G", "H", "I", "J",
       "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V",
        "W", "X", "Y", "Z" ];
@@ -27,11 +29,11 @@ module.exports = class Diamond {
       let firstLetterPosition = 0
       let secondLetterPosition = 0  
       let result = ''    
-      for (i = 0; i < (index*2) + 1; i++) {
+      for (let i = 0; i < (index*2) + 1; i++) {
         firstLetterPosition = index-alphabetIndex+1
         secondLetterPosition = index+alphabetIndex+1
 
-        for (ii = 1; ii<secondLetterPosition+1; ii++) {
+        for (let ii = 1; ii<secondLetterPosition+1; ii++) {
             if (ii === firstLetterPosition ||
                 ii === secondLetterPosition) {
                     result = result + alphabet[alphabetIndex]
@@ -44,11 +46,12 @@ module.exports = class Diamond {
         alphabetIndex = i < index ? alphabetIndex + 1 : alphabetIndex - 1
 
       }
+      // console.log(result)
       return(result)
     }
     else {
       return false;
     }
-    */
+  }
   }
   
